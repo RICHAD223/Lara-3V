@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "WIwiDLxY#ENnasKcJtgMIQLvOJI23oGRhudonwCDW0QndYTlC30o", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "2MQFXChB#PDQXgYx6H8aMqWQy7aeiGhC4aEr-gKz-5hS5u12rtFs", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
@@ -13,14 +13,14 @@ DEV: process.env.DEV || "94779062397",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
-STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛᴜꜱ ᴊᴜꜱᴛ ɴᴏᴡ ꜱᴇᴇɴ ʙʏ ʟᴀʀᴀ ᴍᴅ`_* 💃🏻",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`seen`_* 💃🏻",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",    
 AUTO_REACT: process.env.AUTO_REACT || "false",
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💚",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -29,7 +29,7 @@ ANTI_BAD: process.env.ANTI_BAD || "true",
 ANTI_BOT: process.env.ANTI_BOT || "false",
 ANTI_CALL: process.env.ANTI_CALL || "true",
 BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 READ_CMD: process.env.READ_CMD || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 ANTI_VV: process.env.ANTI_VV || "true",
